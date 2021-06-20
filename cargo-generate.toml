@@ -1,0 +1,3 @@
+[template]
+# Prevents an issue with liquid processing the workflow files
+exclude = [".github/workflows/*.yml"]

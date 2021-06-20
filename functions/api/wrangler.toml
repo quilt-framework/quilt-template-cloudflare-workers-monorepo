@@ -1,0 +1,13 @@
+name = "quilt-template-cloudflare-workers-monorepo-api"
+type = "javascript"
+account_id = ""
+workers_dev = true
+
+[build]
+command = ""
+
+[build.upload]
+format = "modules"
+dir = "./build"
+main = "./index.mjs"
+

@@ -1,0 +1,27 @@
+{
+  "name": "quilt-template-cloudflare-workers-monorepo",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "sewing-kit lint",
+    "test": "sewing-kit test",
+    "type-check": "sewing-kit type-check",
+    "develop": "sewing-kit develop",
+    "build": "sewing-kit build"
+  },
+  "devDependencies": {
+    "@quilted/cloudflare": "^0.1.3",
+    "@quilted/craft": "^0.1.14",
+    "@quilted/sewing-kit": "^0.2.6",
+    "typescript": "4.1.x"
+  },
+  "prettier": "@quilted/prettier",
+  "eslintConfig": {
+    "extends": "@quilted/eslint-config/workspace"
+  },
+  "workspaces": [
+    "./app",
+    "./functions/*"
+  ]
+}

@@ -1,0 +1,15 @@
+name = "quilt-template-cloudflare-workers-monorepo-app"
+type = "javascript"
+account_id = ""
+workers_dev = true
+
+[build]
+command = ""
+
+[build.upload]
+format = "service-worker"
+
+[site]
+bucket = "./build/assets"
+entry-point = "."
+

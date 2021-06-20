@@ -1,0 +1,9 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    {"path": "./app"},
+    {"path": "./functions/api"},
+    {"path": "./tsconfig.workspace.json"}
+  ]
+}

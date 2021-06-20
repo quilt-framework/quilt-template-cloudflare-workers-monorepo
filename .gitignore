@@ -1,0 +1,15 @@
+node_modules
+build
+.sewing-kit
+.DS_STORE
+*.log
+*.graphql.d.ts
+*.graphql.ts
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

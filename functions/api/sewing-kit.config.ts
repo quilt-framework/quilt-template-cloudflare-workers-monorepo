@@ -3,5 +3,10 @@ import {cloudflareWorkers} from '@quilted/cloudflare/sewing-kit';
 
 export default createService((service) => {
   service.entry('./api');
-  service.use(quiltService(), cloudflareWorkers());
+  service.use(
+    quiltService({
+      develop: {port: 8080},
+    }),
+    cloudflareWorkers(),
+  );
 });

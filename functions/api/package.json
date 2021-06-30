@@ -3,9 +3,6 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {
-    "@quilted/http-handlers": "^0.2.6"
-  },
   "eslintConfig": {
     "extends": "@quilted/eslint-config/service"
   }

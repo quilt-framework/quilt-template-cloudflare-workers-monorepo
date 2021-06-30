@@ -20,6 +20,6 @@ export default createApp((app) => {
 });
 ```
 
-You can learn more about customizing the way your projects work on Cloudflare in [Quilt’s Cloudflare deploy documentation](https://github.com/lemonmade/quilt/blob/main/documentation/deploy/cloudflare.md).
+You can learn more about customizing the way your projects work on Cloudflare in [Quilt’s Cloudflare deploy guide](https://github.com/lemonmade/quilt/blob/main/documentation/deploy/cloudflare.md).
 
 Once your project is initialized, navigate to the root of the project, and run `yarn install && yarn develop` to start working on your application. Have fun!

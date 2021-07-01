@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "main": "./build/server/runtime/index.js",
+  "main": "./build/server/index.js",
   "eslintConfig": {
     "extends": "@quilted/eslint-config/app"
   }

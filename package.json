@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "@quilted/http-handlers": "^0.2.10",
-    "@quilted/quilt": "^0.5.33"
+    "@quilted/quilt": "^0.5.34"
   },
   "devDependencies": {
-    "@quilted/cloudflare": "^0.1.8",
-    "@quilted/craft": "^0.1.39",
+    "@quilted/cloudflare": "^0.1.9",
+    "@quilted/craft": "^0.1.40",
     "@quilted/sewing-kit": "^0.2.11",
     "typescript": "^4.3.4"
   },

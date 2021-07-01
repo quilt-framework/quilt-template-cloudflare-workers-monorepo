@@ -8,6 +8,6 @@ command = ""
 
 [build.upload]
 format = "modules"
-dir = "./build"
+dir = "./build/runtime"
 main = "./index.mjs"
 

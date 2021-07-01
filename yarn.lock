@@ -1972,9 +1972,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/cloudflare@npm:^0.1.8":
-  version: 0.1.8
-  resolution: "@quilted/cloudflare@npm:0.1.8"
+"@quilted/cloudflare@npm:^0.1.9":
+  version: 0.1.9
+  resolution: "@quilted/cloudflare@npm:0.1.9"
   dependencies:
     "@quilted/http-handlers": ^0.2.10
     mime: ^2.5.0
@@ -1995,13 +1995,13 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 9ad4e97df0845e1fd4f06e1fe0749bd63176bcbe78d01ef0ab160585b0d109ca2d7fd9e276f34694ebcdd64979524ee0aa958efa12bd25a06d67d3f6f9c160a6
+  checksum: 2cb04261120b4a9f478d5c90fe2f3ed75e6981939132d6a720f0a2039df674e046953ee3758da855ae855334ec141d955acccf29e32b5e6350f19004e40d3d72
   languageName: node
   linkType: hard
 
-"@quilted/craft@npm:^0.1.39":
-  version: 0.1.39
-  resolution: "@quilted/craft@npm:0.1.39"
+"@quilted/craft@npm:^0.1.40":
+  version: 0.1.40
+  resolution: "@quilted/craft@npm:0.1.40"
   dependencies:
     "@babel/core": ">=7.0.0 <8.0.0"
     "@prefresh/vite": ^2.2.0
@@ -2060,7 +2060,7 @@ __metadata:
       optional: true
     typescript:
       optional: false
-  checksum: 6aab3a518d1287ffb875ca2b126c7eac46d4d0b5682b8a8a51ed799d74b4dafa49d11736977c28184fc9fb7fbc791c67ff86d4c6e2be197634b725d257db5bf8
+  checksum: 81777722eb7a947bd16a09368cf1d27c76642bae05ead44075a52af29bcb9d4640f4ff728bd9e78679604f8f092a9ee611a23350398a3601e07d5cc46a1fb3cd
   languageName: node
   linkType: hard
 
@@ -2157,9 +2157,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/polyfills@npm:^0.2.10":
-  version: 0.2.10
-  resolution: "@quilted/polyfills@npm:0.2.10"
+"@quilted/polyfills@npm:^0.2.11":
+  version: 0.2.11
+  resolution: "@quilted/polyfills@npm:0.2.11"
   dependencies:
     "@types/caniuse-api": ^3.0.0
     "@types/node-fetch": ^2.0.0
@@ -2189,7 +2189,7 @@ __metadata:
       optional: true
     rollup:
       optional: true
-  checksum: 06f86c48c08728b2823bd7ea8901162705c38f056b68c808fe650260c64119d883663ae423ff7d9bd970c9cdb0b0a2e00902bc5a0ed09636f4ba669c585dbec2
+  checksum: bdb1db574231058b96c32ab649158004bd013e1e6f9d74f871139117d1515a7e15a902e238430f30d6e9bb199289fc442628c34c0f24afc0f61ad979681b16d7
   languageName: node
   linkType: hard
 
@@ -2215,14 +2215,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/quilt@npm:^0.5.33":
-  version: 0.5.33
-  resolution: "@quilted/quilt@npm:0.5.33"
+"@quilted/quilt@npm:^0.5.34":
+  version: 0.5.34
+  resolution: "@quilted/quilt@npm:0.5.34"
   dependencies:
     "@quilted/async": ^0.3.9
     "@quilted/graphql": ^0.4.10
     "@quilted/http-handlers": ^0.2.10
-    "@quilted/polyfills": ^0.2.10
+    "@quilted/polyfills": ^0.2.11
     "@quilted/preact-mini-compat": ^0.2.6
     "@quilted/react-async": ^0.3.16
     "@quilted/react-email": ^0.2.14
@@ -2249,7 +2249,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 67330263b23ecd9f11edb42f6b5d99c365128d3a9cd3a79db364d3740dc0285c35e9ae0572ee94e6026d8aa967f9021333d7b9e872f29c4cabfd3b014d6ee17f
+  checksum: 86e1fcaec43bd89a89c0d7c349287992492a6f0aba9b2779e6e7e5af52d9b41d6856df4fa9bfc4f42544ee2d2127e0504d937834905bdbb51866f2fd3bff6129
   languageName: node
   linkType: hard
 
@@ -7898,10 +7898,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quilt-template-cloudflare-workers-monorepo@workspace:."
   dependencies:
-    "@quilted/cloudflare": ^0.1.8
-    "@quilted/craft": ^0.1.39
+    "@quilted/cloudflare": ^0.1.9
+    "@quilted/craft": ^0.1.40
     "@quilted/http-handlers": ^0.2.10
-    "@quilted/quilt": ^0.5.33
+    "@quilted/quilt": ^0.5.34
     "@quilted/sewing-kit": ^0.2.11
     typescript: ^4.3.4
   languageName: unknown

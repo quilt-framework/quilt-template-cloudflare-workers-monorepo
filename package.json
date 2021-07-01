@@ -12,13 +12,13 @@
   },
   "dependencies": {
     "@quilted/http-handlers": "^0.2.10",
-    "@quilted/quilt": "^0.5.34"
+    "@quilted/quilt": "^0.5.35"
   },
   "devDependencies": {
     "@quilted/cloudflare": "^0.1.9",
-    "@quilted/craft": "^0.1.40",
+    "@quilted/craft": "^0.1.43",
     "@quilted/sewing-kit": "^0.2.11",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.5"
   },
   "prettier": "@quilted/prettier",
   "eslintConfig": {

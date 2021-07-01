@@ -1916,9 +1916,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/async@npm:^0.3.9":
-  version: 0.3.9
-  resolution: "@quilted/async@npm:0.3.9"
+"@quilted/async@npm:^0.3.10":
+  version: 0.3.10
+  resolution: "@quilted/async@npm:0.3.10"
   dependencies:
     common-tags: ^1.8.0
     es-module-lexer: ^0.4.0
@@ -1949,7 +1949,7 @@ __metadata:
       optional: true
     "@quilted/sewing-kit-rollup":
       optional: true
-  checksum: 51bca5fa24edba10ba03d8b8a89a95e3d5f77fd8cfa6c5e41c728cd969839cf7c282dcafdffe9f3ccdd334e4c88565a52633495f52ae0f6e492329fa6965dd2b
+  checksum: ad792ce771f667d55e6b7547d01011d1e12e62168586eebccd80266ccd4c513047e8c29e4cc330252ac7215c31e5c1866e6fd1511bb8b44a82bcb661e778910a
   languageName: node
   linkType: hard
 
@@ -1999,9 +1999,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/craft@npm:^0.1.40":
-  version: 0.1.40
-  resolution: "@quilted/craft@npm:0.1.40"
+"@quilted/craft@npm:^0.1.43":
+  version: 0.1.43
+  resolution: "@quilted/craft@npm:0.1.43"
   dependencies:
     "@babel/core": ">=7.0.0 <8.0.0"
     "@prefresh/vite": ^2.2.0
@@ -2011,9 +2011,9 @@ __metadata:
     "@quilted/sewing-kit": ^0.2.11
     "@quilted/sewing-kit-babel": ^0.1.6
     "@quilted/sewing-kit-eslint": ^0.1.4
-    "@quilted/sewing-kit-esnext": ^0.1.15
+    "@quilted/sewing-kit-esnext": ^0.1.16
     "@quilted/sewing-kit-jest": ^0.1.7
-    "@quilted/sewing-kit-package": ^0.1.8
+    "@quilted/sewing-kit-package": ^0.1.9
     "@quilted/sewing-kit-prettier": ^0.1.4
     "@quilted/sewing-kit-react": ^0.1.4
     "@quilted/sewing-kit-rollup": ^0.1.6
@@ -2060,7 +2060,7 @@ __metadata:
       optional: true
     typescript:
       optional: false
-  checksum: 81777722eb7a947bd16a09368cf1d27c76642bae05ead44075a52af29bcb9d4640f4ff728bd9e78679604f8f092a9ee611a23350398a3601e07d5cc46a1fb3cd
+  checksum: 8ca1043901d4cf155e31da1b2ab66643fac59a53b3ccb9ec8c45568f910105335dbe7e1a23a02788c788811bb61960debf507381afebc19250a4574c2a019edc
   languageName: node
   linkType: hard
 
@@ -2215,25 +2215,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/quilt@npm:^0.5.34":
-  version: 0.5.34
-  resolution: "@quilted/quilt@npm:0.5.34"
+"@quilted/quilt@npm:^0.5.35":
+  version: 0.5.35
+  resolution: "@quilted/quilt@npm:0.5.35"
   dependencies:
-    "@quilted/async": ^0.3.9
+    "@quilted/async": ^0.3.10
     "@quilted/graphql": ^0.4.10
     "@quilted/http-handlers": ^0.2.10
     "@quilted/polyfills": ^0.2.11
     "@quilted/preact-mini-compat": ^0.2.6
-    "@quilted/react-async": ^0.3.16
+    "@quilted/react-async": ^0.3.17
     "@quilted/react-email": ^0.2.14
-    "@quilted/react-graphql": ^0.4.21
+    "@quilted/react-graphql": ^0.4.22
     "@quilted/react-html": ^0.3.14
     "@quilted/react-http": ^0.2.15
     "@quilted/react-idle": ^0.3.5
     "@quilted/react-router": ^0.3.16
     "@quilted/react-server-render": ^0.3.5
     "@quilted/react-testing": ^0.4.6
-    "@quilted/react-workers": ^0.2.10
+    "@quilted/react-workers": ^0.2.11
     "@types/react": ^17.0.0
     "@types/react-dom": ^17.0.0
     preact: ^10.0.0
@@ -2249,15 +2249,15 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 86e1fcaec43bd89a89c0d7c349287992492a6f0aba9b2779e6e7e5af52d9b41d6856df4fa9bfc4f42544ee2d2127e0504d937834905bdbb51866f2fd3bff6129
+  checksum: 11ea94c6719f0b5e5003e894f5541723d01450073cf514bbb3edebbee8f7053ba48a27cc025f64a85feff97e4c87b567aacdd6b76d9f7a5fd69b095910dc0986
   languageName: node
   linkType: hard
 
-"@quilted/react-async@npm:^0.3.16":
-  version: 0.3.16
-  resolution: "@quilted/react-async@npm:0.3.16"
+"@quilted/react-async@npm:^0.3.17":
+  version: 0.3.17
+  resolution: "@quilted/react-async@npm:0.3.17"
   dependencies:
-    "@quilted/async": ^0.3.9
+    "@quilted/async": ^0.3.10
     "@quilted/react-html": ^0.3.14
     "@quilted/react-server-render": ^0.3.5
     "@quilted/use-subscription": ^0.2.5
@@ -2269,7 +2269,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 17bf1cec97e64730c6ab53c6247f76843a5791256384642b12b3e5313cec28759e990f902766107f8e9d4c773384947792578b150785816b0afabf301e158e69
+  checksum: d8443bf0895fa8d06948452700695f87df8f89fe674013b41abc8e96106b587fbaa660629c486100af42c4cc0b880a3a00fb24cae0e70dbc5b8a06baa1735d51
   languageName: node
   linkType: hard
 
@@ -2291,12 +2291,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/react-graphql@npm:^0.4.21":
-  version: 0.4.21
-  resolution: "@quilted/react-graphql@npm:0.4.21"
+"@quilted/react-graphql@npm:^0.4.22":
+  version: 0.4.22
+  resolution: "@quilted/react-graphql@npm:0.4.22"
   dependencies:
     "@quilted/graphql": ^0.4.10
-    "@quilted/react-async": ^0.3.16
+    "@quilted/react-async": ^0.3.17
     "@quilted/useful-types": ^0.2.4
   peerDependencies:
     "@babel/runtime": ">=7.0.0 <8.0.0"
@@ -2306,7 +2306,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: e95e5e7625a1be9f30b08ff3cc4b7ff4f3b4e9180167318828612df9b7c35788b840558a2097ea086520c0d191a8e52b0929cb8aed28d1f81df038e0b8cc886a
+  checksum: e15a9457a228f54a356881b939dc67e0a633a2b4919bdf180c7a169d1a923e182bd27b187419ea3a59f982f93d757c48761319ccfa62953ad342bdc23f0c31ae
   languageName: node
   linkType: hard
 
@@ -2440,11 +2440,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/react-workers@npm:^0.2.10":
-  version: 0.2.10
-  resolution: "@quilted/react-workers@npm:0.2.10"
+"@quilted/react-workers@npm:^0.2.11":
+  version: 0.2.11
+  resolution: "@quilted/react-workers@npm:0.2.11"
   dependencies:
-    "@quilted/workers": ^0.2.10
+    "@quilted/workers": ^0.2.11
   peerDependencies:
     "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
@@ -2453,7 +2453,19 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 52f3cab2ea339d6c32b1137e6841ff352baa234687af367e18a026b63d7901a9d2077abe4d00cacf0bf047fbc7b3fd9548c6685e1c863b340807b8325f12a5ab
+  checksum: 62863b5a0727ea3b5405b7a66437e265bdb8eebdd3a16b8876668b2fbdd0f67f3de0bb2816d9e295666f8595f3c9426a5237ccf335d66acfa5506b2a1528d48d
+  languageName: node
+  linkType: hard
+
+"@quilted/rollup-plugin-fix-commonjs-preserve-modules@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@quilted/rollup-plugin-fix-commonjs-preserve-modules@npm:0.1.0"
+  peerDependencies:
+    rollup: ^2.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: false
+  checksum: 46906aba151528a8c21a3f1aea8d61f94f3286a54c5e818509d94b97c3cf01ba5690bddd812e705b6afa0a7031f7da06fa5dd4c2d2ebc1cfcce5ee7069ad13fd
   languageName: node
   linkType: hard
 
@@ -2512,10 +2524,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-esnext@npm:^0.1.15":
-  version: 0.1.15
-  resolution: "@quilted/sewing-kit-esnext@npm:0.1.15"
+"@quilted/sewing-kit-esnext@npm:^0.1.16":
+  version: 0.1.16
+  resolution: "@quilted/sewing-kit-esnext@npm:0.1.16"
   dependencies:
+    "@quilted/rollup-plugin-fix-commonjs-preserve-modules": ^0.1.0
     "@quilted/sewing-kit-rollup": ^0.1.6
     "@rollup/plugin-babel": ^5.3.0
     esbuild: ^0.12.0
@@ -2541,7 +2554,7 @@ __metadata:
       optional: true
     "@quilted/sewing-kit-vite":
       optional: true
-  checksum: db81c58e26c421c32c91f0f3b28a8c4f20e60891eb2b409ba2582e70fd415638b68a486e4058154d8317d9fd5661411ef0a36fa6d2230b2704b346651debf5a4
+  checksum: c1b6321a6990a75673f72a7d40a76ead158d323be28aa9e10b7b987959251603e9c504ad49dd2ef6b8fefeb2bb433df320b836fa6b52258b784807fc05798422
   languageName: node
   linkType: hard
 
@@ -2566,11 +2579,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-package@npm:^0.1.8":
-  version: 0.1.8
-  resolution: "@quilted/sewing-kit-package@npm:0.1.8"
+"@quilted/sewing-kit-package@npm:^0.1.9":
+  version: 0.1.9
+  resolution: "@quilted/sewing-kit-package@npm:0.1.9"
   dependencies:
     "@babel/runtime": ">=7.0.0 <8.0.0"
+    "@quilted/rollup-plugin-fix-commonjs-preserve-modules": ^0.1.0
     "@quilted/sewing-kit-rollup": ^0.1.6
     rollup: ^2.0.0
   peerDependencies:
@@ -2580,7 +2594,7 @@ __metadata:
       optional: true
     "@quilted/sewing-kit":
       optional: true
-  checksum: 33f7f0be24568b1f5e7207535ea05d3f3f52935fbbd400873a0ec2dafa26f14b1248f05e96c29d45704a96f3127d6005689f55b89a649915b265a22ffa10743b
+  checksum: b36f46ac8c04fb1febba9a053957210d2c434366e6b3f6e4a6927deb6669c66175d3fe2c121ad5026de316d427ff17a37f21b99964dfd35fb77a5d768fec058c
   languageName: node
   linkType: hard
 
@@ -2781,9 +2795,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/workers@npm:^0.2.10":
-  version: 0.2.10
-  resolution: "@quilted/workers@npm:0.2.10"
+"@quilted/workers@npm:^0.2.11":
+  version: 0.2.11
+  resolution: "@quilted/workers@npm:0.2.11"
   dependencies:
     "@remote-ui/rpc": ^1.2.0
     common-tags: ^1.8.0
@@ -2810,7 +2824,7 @@ __metadata:
       optional: true
     rollup:
       optional: true
-  checksum: 0669ed0e159d82a8b3380b74163c1a6a4f01c93d74dfa3217490a09dc86bf54dd905e59062a991d6f1b05d942a3c52aae96eff69d0329e656e1f7200c08477e0
+  checksum: 1a7f4b19a43b9a929e2d24ad0886f11864256665b43133ba3019de8b5f08aca20b1a1df36811bf3c6fea4f27fb0848c2586052ca84f15560bb5a74c624435be3
   languageName: node
   linkType: hard
 
@@ -7899,11 +7913,11 @@ __metadata:
   resolution: "quilt-template-cloudflare-workers-monorepo@workspace:."
   dependencies:
     "@quilted/cloudflare": ^0.1.9
-    "@quilted/craft": ^0.1.40
+    "@quilted/craft": ^0.1.43
     "@quilted/http-handlers": ^0.2.10
-    "@quilted/quilt": ^0.5.34
+    "@quilted/quilt": ^0.5.35
     "@quilted/sewing-kit": ^0.2.11
-    typescript: ^4.3.4
+    typescript: ^4.3.5
   languageName: unknown
   linkType: soft
 
@@ -9069,23 +9083,23 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@^4.3.4:
-  version: 4.3.4
-  resolution: "typescript@npm:4.3.4"
+typescript@^4.3.5:
+  version: 4.3.5
+  resolution: "typescript@npm:4.3.5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 9791c5fe98db6cb70ec0efad8d3d2eb957b9643ee600b90bff49267de69768d0d5f59c41a8fd731cfd63df1ccfb2cb25505a2015d7b39ac10ea51f605a058e16
+  checksum: d9a8e78d72dd19896e6bfa73ab2a0fcea6eca2700d1d6e7c33f67a970af54a3e0fed8f715a8c4e6a0ff7fc0995067b394b2003518ab0aa84cd396377e54b760c
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.3.4#builtin<compat/typescript>":
-  version: 4.3.4
-  resolution: "typescript@patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"
+"typescript@patch:typescript@^4.3.5#builtin<compat/typescript>":
+  version: 4.3.5
+  resolution: "typescript@patch:typescript@npm%3A4.3.5#builtin<compat/typescript>::version=4.3.5&hash=ddfc1b"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c8766e84a4f71e925cc059af8286cc7f41819fe821d433b90c83e9b36729cbda7a8e4be3292d8a1433cd717d529c93217d58d173418f43862290b206bd88b284
+  checksum: 7f0b8343f71ecac18095be1476b398aca420ab60dc207cc1efe078f381eef5527b80a518297720257114cdbda65612f8839e4b63e85dc95e67ac5cbbade8bdf0
   languageName: node
   linkType: hard
 

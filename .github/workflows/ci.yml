@@ -19,7 +19,7 @@ jobs:
         id: yarn-cache-get-dir
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: yarn-cache
         name: Restore yarn cache
         with:
@@ -31,7 +31,7 @@ jobs:
       - name: Yarn install
         run: yarn install --immutable
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: eslint-cache
         name: Restore TypeScript cache
         with:
@@ -61,7 +61,7 @@ jobs:
         id: yarn-cache-get-dir
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: yarn-cache
         name: Restore yarn cache
         with:
@@ -73,7 +73,7 @@ jobs:
       - name: Yarn install
         run: yarn install --immutable
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: jest-cache
         name: Restore jest cache
         with:
@@ -101,7 +101,7 @@ jobs:
         id: yarn-cache-get-dir
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: yarn-cache
         name: Restore yarn cache
         with:
@@ -113,7 +113,7 @@ jobs:
       - name: Yarn install
         run: yarn install --immutable
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: eslint-cache
         name: Restore ESLint cache
         with:
@@ -141,7 +141,7 @@ jobs:
         id: yarn-cache-get-dir
         run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         id: yarn-cache
         name: Restore yarn cache
         with:

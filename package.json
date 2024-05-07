@@ -15,7 +15,7 @@
     "@quilted/quilt": "^0.5.40"
   },
   "devDependencies": {
-    "@quilted/cloudflare": "^0.1.10",
+    "@quilted/cloudflare": "^0.3.0",
     "@quilted/craft": "^0.1.47",
     "@quilted/sewing-kit": "^0.2.11",
     "typescript": "^4.3.5"

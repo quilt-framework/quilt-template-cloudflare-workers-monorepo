@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@quilted/http-handlers": "^0.2.11",
-    "@quilted/quilt": "^0.5.40"
+    "@quilted/quilt": "^0.8.0"
   },
   "devDependencies": {
     "@quilted/cloudflare": "^0.1.10",

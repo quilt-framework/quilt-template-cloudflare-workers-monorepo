@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v2
         name: Setup node.js and yarn
         with:
-          node-version: 16.2.0
+          node-version: 16.20.2
 
       - name: Get yarn cache directory
         id: yarn-cache-get-dir
@@ -55,7 +55,7 @@ jobs:
       - uses: actions/setup-node@v2
         name: Setup node.js and yarn
         with:
-          node-version: 16.2.0
+          node-version: 16.20.2
 
       - name: Get yarn cache directory
         id: yarn-cache-get-dir
@@ -95,7 +95,7 @@ jobs:
       - uses: actions/setup-node@v2
         name: Setup node.js and yarn
         with:
-          node-version: 16.2.0
+          node-version: 16.20.2
 
       - name: Get yarn cache directory
         id: yarn-cache-get-dir
@@ -135,7 +135,7 @@ jobs:
       - uses: actions/setup-node@v2
         name: Setup node.js and yarn
         with:
-          node-version: 16.2.0
+          node-version: 16.20.2
 
       - name: Get yarn cache directory
         id: yarn-cache-get-dir

@@ -1391,6 +1391,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cloudflare/kv-asset-handler@npm:^0.3.0":
+  version: 0.3.4
+  resolution: "@cloudflare/kv-asset-handler@npm:0.3.4"
+  dependencies:
+    mime: ^3.0.0
+  checksum: e98dde0278df1971462e1f702e513068bfdc9b8b8826a5f1548f9d15ef605051c83c01c78e35411a87b91a16f1520053d1876b731c9e0bc4dd50545126ffda53
+  languageName: node
+  linkType: hard
+
+"@cloudflare/workers-types@npm:^4.20221111.1":
+  version: 4.20260702.1
+  resolution: "@cloudflare/workers-types@npm:4.20260702.1"
+  checksum: b1ed37222977b5540cdd9802a007772a3fc8acbde773b40344690dc9fb38235791d2cefc4997954bf1eee9bf81349e881291cac4cc9540f0cb1eb50cce38366c
+  languageName: node
+  linkType: hard
+
 "@endemolshinegroup/cosmiconfig-typescript-loader@npm:3.0.2":
   version: 3.0.2
   resolution: "@endemolshinegroup/cosmiconfig-typescript-loader@npm:3.0.2"
@@ -1972,30 +1988,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/cloudflare@npm:^0.1.10":
-  version: 0.1.10
-  resolution: "@quilted/cloudflare@npm:0.1.10"
+"@quilted/cloudflare@npm:^0.7.0":
+  version: 0.7.1
+  resolution: "@quilted/cloudflare@npm:0.7.1"
   dependencies:
-    "@quilted/http-handlers": ^0.2.11
+    "@cloudflare/kv-asset-handler": ^0.3.0
+    "@cloudflare/workers-types": ^4.20221111.1
+    common-tags: ^1.8.0
     mime: ^2.5.0
   peerDependencies:
-    "@babel/runtime": ">=7.0.0 <8.0.0"
-    "@quilted/craft": ^0.1.9
-    "@quilted/quilt": ^0.5.14
-    "@quilted/sewing-kit": ^0.2.4
-    react: ">=17.0.0 <18.0.0"
+    "@quilted/quilt": ^0.10.2
+    "@quilted/rollup": ^0.6.1
   peerDependenciesMeta:
-    "@babel/runtime":
-      optional: true
-    "@quilted/craft":
-      optional: true
     "@quilted/quilt":
       optional: true
-    "@quilted/sewing-kit":
+    "@quilted/rollup":
       optional: true
-    react:
-      optional: true
-  checksum: 06061986546e83ef5d9aca91f714c3a5aa7f1018d98736c388946de943e0d7e3f42cc02a8d7a4877be95d67877143e5ab9fb47a1928e38be9a896b821b1a2403
+  checksum: 99506c0f8004b386e65773de0114a08c384ad5c37dd7d544a31d4e640cbcf5b87e7f64572b3acf057118ff54d13112ac7e27ea89bbd0ea7dc24d3307f2a0bdb0
   languageName: node
   linkType: hard
 
@@ -7119,6 +7128,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mime@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "mime@npm:3.0.0"
+  bin:
+    mime: cli.js
+  checksum: 92e15d00a87a282fde7979a03016d900aaeb68ed5155bffd1477dd26765728a5fbdc51ca54c9f5a44f7a45cb6d0781291efb29402512428eafe72df152ddb828
+  languageName: node
+  linkType: hard
+
 "mimic-fn@npm:^2.1.0":
   version: 2.1.0
   resolution: "mimic-fn@npm:2.1.0"
@@ -7925,7 +7943,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quilt-template-cloudflare-workers-monorepo@workspace:."
   dependencies:
-    "@quilted/cloudflare": ^0.1.10
+    "@quilted/cloudflare": ^0.7.0
     "@quilted/craft": ^0.1.47
     "@quilted/http-handlers": ^0.2.11
     "@quilted/quilt": ^0.5.40
